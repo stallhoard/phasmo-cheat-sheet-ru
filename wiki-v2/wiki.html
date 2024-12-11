@@ -3,7 +3,7 @@
         <div id="wiki-0-evidence-spirit" class="wiki_title accordian" onclick="accordian(this)"><div class="wiki_subtitle"><div class="wiki_crumb">├</div> Дух</div></div>
         <div class="wiki_details" style="height: 0px; display: none;">
             <div class="text">
-                <p><b>Тесты на подтверждение</b> †</p>
+                <p><b>Тесты на подтверждение</b></p>
                 <ul><li><b>Особенность (надежно)</b>: After smudging the ghost initially, wait 150s - 170s and smudge the ghost again (starting a new smudge timer). If the ghost hunts within 60s of the second smudge (earliest a Demon could hunt), it is a Spirit. Note: this test can fail if the ghost is not actually smudged the second time.<div class="wiki_mark_ghost" onclick="select(document.getElementById(&quot;Spirit&quot;))">✔ Mark Ghost</div></li></ul>
                 <p><b>Тесты на исключение</b></p>
                 <ul><li><b>Особенность</b>: Start a timer as soon as the ghost has been smudged. If the ghost hunts before 180s, it is <i>not</i> a Spirit<div class="wiki_mark_ghost" onclick="fade(document.getElementById(&quot;Spirit&quot;))">✗ Mark Ghost</div></li></ul>
@@ -13,37 +13,25 @@
         <div id="wiki-0-evidence-wraith" class="wiki_title accordian" onclick="accordian(this)"><div class="wiki_subtitle"><div class="wiki_crumb">├</div> Мираж</div></div>
         <div class="wiki_details" style="height: 0px; display: none;">
             <div class="text">
-                <p><b>Abilities, Behaviors, &amp; Tells</b></p>
-                <ul><li><b>Tell</b>: Will not touch nor interact with salt in any way</li><li><b>Tell</b>: Will not be slowed down by tier 3 salt during a hunt</li><li><b>Ability</b>: Can teleport to a random player, leaving EMF 2 at the their new location</li><br><i>Note: Wraith is the only ghost that can teleport to a player outside of an event</i></ul>
-                <p><b>Confirmation Test(s)</b> †</p>
-                <ul><li><b>Tell (Definitive)</b>: If you see the ghost walk through a salt pile during an event or hunt without disturbing it, it is a Wraith<br><img loading="lazy" class="zoomable" src="https://i.imgur.com/zQl77Fd.gif" onclick="zoomImage(this)"><div class="wiki_mark_ghost" onclick="select(document.getElementById(&quot;Wraith&quot;))">✔ Mark Ghost</div></li><li><b>Tell (Definitive)</b>: Place salt in a line directly below a Tier 1 or Tier 2 motion sensor, ensuring that the salt covers the entirety of the laser line. If the motion sensor activates but the salt is undisturbed, it's a Wraith<br><img loading="lazy" class="zoomable" src="https://i.imgur.com/iN6cFJn.gif" onclick="zoomImage(this)"><div class="wiki_mark_ghost" onclick="select(document.getElementById(&quot;Wraith&quot;))">✔ Mark Ghost</div></li><li class="non-definitive"><b>Ability (Non-Definitive)</b>: If while investigating you get a EMF 2 without any interaction near you, it may have been a Wraith using its ability to teleport</li></ul>
-                <p><b>Elimination Test(s)</b></p>
-                <ul><li><b>Tell</b>: If salt is disturbed by the ghost in any way, it is <i>not</i> a Wraith<div class="wiki_mark_ghost" onclick="fade(document.getElementById(&quot;Wraith&quot;))">✗ Mark Ghost</div></li></ul>
-                <div class="wiki_details_note">
-                    <i>- Use the <a href="javascript:void(0);" onclick="highLightBPMFinder()"><b>BPM Finder</b></a> to track ghost speeds -</i>
-                    <i>- Use the <a href="https://zero-network.net/phasmo-cheat-sheet/map-explorer/" target="_blank"><b>Map Explorer</b></a> to see ranges/distances -</i>
-                    <i style="opacity: 0.4; margin-top: 3px;">† The Mimic can copy abilities and behaviors of other ghosts, meaning that any confirmation test could also be a Mimic</i>
-                </div>
+                <p><b>Дополнительная информация</b></p>
+                <ul><li><b>Способность</b>: После телепортации к игроку, <i>на земле</i> появляется показатель ЭМП, которое можно сфотографировать</i></ul>
+                <p><b>Тесты на подтверждение</b></p>
+                <ul><li><b>Особенность (надёжная)</b>: Если призрак проходит сквозь соль, не оставляя следов, то это Мираж<br><img loading="lazy" class="zoomable" src="https://i.imgur.com/zQl77Fd.gif" onclick="zoomImage(this)"><div class="wiki_mark_ghost" onclick="select(document.getElementById(&quot;Wraith&quot;))">✔ Mark Ghost</div></li><li><b>Особенность (надёжная)</b>: Поставьте датчик движения и рассыпьте соль как показано на видео, если датчик движения обнаруживает призрака, но нет следов на соли, то это Мираж<br><img loading="lazy" class="zoomable" src="https://i.imgur.com/iN6cFJn.gif" onclick="zoomImage(this)"><div class="wiki_mark_ghost" onclick="select(document.getElementById(&quot;Wraith&quot;))">✔ Mark Ghost</div></li><li class="non-definitive"><b>Ability (Non-Definitive)</b>: If while investigating you get a EMF 2 without any interaction near you, it may have been a Wraith using its ability to teleport</li></ul>
+                <p><b>Тесты на исключение</b></p>
+                <ul><li><b>Особенность</b>: Если призрак оставил следы в соти то это <i>не</i> Мираж<div class="wiki_mark_ghost" onclick="fade(document.getElementById(&quot;Wraith&quot;))">✗ Mark Ghost</div></li></ul>
             </div>
-            <div onclick="generateWikiShareLink(this);" class="wiki-share">Copy Share Link <img loading="lazy" src="imgs/share.png"></div>
         </div>
         
         <div id="wiki-0-evidence-phantom" class="wiki_title accordian" onclick="accordian(this)"><div class="wiki_subtitle"><div class="wiki_crumb">├</div> Фантом</div></div>
         <div class="wiki_details" style="height: 0px; display: none;">
             <div class="text">
-                <p><b>Abilities, Behaviors, &amp; Tells</b></p>
-                <ul><li><b>Tell</b>: Will not appear in ghost photos (including DOTs ghost photos)</li><li><b>Tell</b>: Taking a photo of the ghost will cause the ghost to disappear (including DOTs state)</li><li><b>Tell</b>: Less visible during hunts</li><li><b>Tell</b>: Player will lose 0.5% sanity /s while in heartbeat range of the ghost during hunts and events</li><li><b>Ability</b>: Can roam toward a random player, leaving EMF 2 at the location where it wanders to</li></ul>
-                <p><b>Confirmation Test(s)</b> †</p>
-                <ul><li><b>Tell (Definitive)</b>: Take a photo of the ghost during an event or while ghost is visible in DOTs. If the ghost disappears (but the event sounds continue) and the ghost does not appear in the "Ghost" photo in the journal, it is a Phantom<br><img loading="lazy" class="zoomable" src="https://i.imgur.com/Jpb0ntJ.gif" onclick="zoomImage(this)"><div class="wiki_mark_ghost" onclick="select(document.getElementById(&quot;Phantom&quot;))">✔ Mark Ghost</div></li><li><b>Tell (Definitive)</b>: Watch the ghost during a hunt, if the ghost seems nearly invisible during the hunt, it is a Phantom<br><img loading="lazy" class="zoomable" src="https://i.imgur.com/MaFsZCO.gif" onclick="zoomImage(this)"><div class="wiki_mark_ghost" onclick="select(document.getElementById(&quot;Phantom&quot;))">✔ Mark Ghost</div></li><li class="non-definitive"><b>Ability (Non-Definitive)</b>: If while investigating you get a EMF 2 without any interaction near you, it may have been a Phantom using its ability to roam</li></ul>
+                <p><b>Дополнительная информация</b></p>
+                <ul><li><b>Способность</b>: Создаёт показатель ЭМП на уровне головы игрока, когда использует способность</li></ul>
+                <p><b>Тесты на подтверждение</b></p>
+                <ul><li><b>Особенность (надежная)</b>: Сфотографируйте призрака во время паранормального явления или охоты, если на фотографии нет призрака (должна быть помечена как "Призрак"), то это Фантом<br><img loading="lazy" class="zoomable" src="https://i.imgur.com/Jpb0ntJ.gif" onclick="zoomImage(this)"><div class="wiki_mark_ghost" onclick="select(document.getElementById(&quot;Phantom&quot;))">✔ Mark Ghost</div></li><li><b>Особенность (надёжная)</b>: Если призрак во время охоты невидим дольше, чем обычные призраки, то это Фантом<br><img loading="lazy" class="zoomable" src="https://i.imgur.com/MaFsZCO.gif" onclick="zoomImage(this)"><div class="wiki_mark_ghost" onclick="select(document.getElementById(&quot;Phantom&quot;))">✔ Mark Ghost</div></li><li class="non-definitive"></ul>
                 <p><b>Elimination Test(s)</b></p>
-                <ul><li><b>Tell</b>: If the ghost appears in a "Ghost" photo in the journal, it is <i>not</i> a Phantom<div class="wiki_mark_ghost" onclick="fade(document.getElementById(&quot;Phantom&quot;))">✗ Mark Ghost</div></li><li><b>Tell</b>: If the ghost has normal or increased blinking during a hunt, it is <i>not</i> a Phantom<div class="wiki_mark_ghost" onclick="fade(document.getElementById(&quot;Phantom&quot;))">✗ Mark Ghost</div></li></ul>
-                <div class="wiki_details_note">
-                    <i>- Use the <a href="javascript:void(0);" onclick="highLightBPMFinder()"><b>BPM Finder</b></a> to track ghost speeds -</i>
-                    <i>- Use the <a href="https://zero-network.net/phasmo-cheat-sheet/map-explorer/" target="_blank"><b>Map Explorer</b></a> to see ranges/distances -</i>
-                    <i style="opacity: 0.4; margin-top: 3px;">† The Mimic can copy abilities and behaviors of other ghosts, meaning that any confirmation test could also be a Mimic</i>
-                </div>
+                <ul><li><b>Особенность</b>: Если призрак появляется на фото в журнале, то это <i>не</i> Фантом<div class="wiki_mark_ghost" onclick="fade(document.getElementById(&quot;Phantom&quot;))">✗ Mark Ghost</div></li><li><b>Особенность</b>: Если призрак мерцает как обычный призрак, то это <i>не</i> Фантом<div class="wiki_mark_ghost" onclick="fade(document.getElementById(&quot;Phantom&quot;))">✗ Mark Ghost</div></li></ul>
             </div>
-            <div onclick="generateWikiShareLink(this);" class="wiki-share">Copy Share Link <img loading="lazy" src="imgs/share.png"></div>
         </div>
         
         <div id="wiki-0-evidence-poltergeist" class="wiki_title accordian" onclick="accordian(this)"><div class="wiki_subtitle"><div class="wiki_crumb">├</div> Полтергейст</div></div>
@@ -298,7 +286,7 @@
             <div onclick="generateWikiShareLink(this);" class="wiki-share">Copy Share Link <img loading="lazy" src="imgs/share.png"></div>
         </div>
         
-        <div id="wiki-0-evidence-the-twins" class="wiki_title accordian" onclick="accordian(this)"><div class="wiki_subtitle"><div class="wiki_crumb">├</div> The Twins</div></div>
+        <div id="wiki-0-evidence-the-twins" class="wiki_title accordian" onclick="accordian(this)"><div class="wiki_subtitle"><div class="wiki_crumb">├</div> Близнецы</div></div>
         <div class="wiki_details" style="height: 0px; display: none;">
             <div class="text">
                 <p><b>Abilities, Behaviors, &amp; Tells</b></p>
