@@ -231,7 +231,7 @@ hr{
     }
 
     #wiki_box{
-        position: fixed;
+        position: absolute;
         top: 0;
         left: -315px;
         z-index: 1;
@@ -246,7 +246,7 @@ hr{
         color: #fff;
         padding: 5px 8px 5px 20px;
         font-size: 14px;
-        transition: left 0.5s ease;
+        transition: left 1s ease;
     }
 
     #wiki_tab{
