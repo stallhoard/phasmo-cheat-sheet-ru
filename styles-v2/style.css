@@ -234,7 +234,7 @@ hr{
         position: fixed;
         top: 0;
         z-index: 1;
-        width: 350px;
+        width: 500px;
         height: 100%;
         background-color: #313248;
         display: flex;
