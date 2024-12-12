@@ -231,11 +231,10 @@ hr{
     }
 
     #wiki_box{
-        position: absolute;
+        position: fixed;
         top: 0;
-        left: -315px;
         z-index: 1;
-        width: 500px;
+        width: 280px;
         height: 100%;
         background-color: #313248;
         display: flex;
