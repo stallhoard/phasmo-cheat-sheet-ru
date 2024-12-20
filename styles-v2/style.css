@@ -177,6 +177,14 @@ hr{
         background: #db4d48;
     }
 
+    .credit{
+    opacity: 0.4;
+    font-size: 11px;
+    width: 100%;
+    text-align: center;
+    margin: -5px 0px -5px 0px;
+    }
+
     .download{
         position: absolute;
         right: 0;
