@@ -329,26 +329,26 @@
         <div class="text">
             <img loading="lazy" class="zoomable" src="https://i.imgur.com/5H5gspB.gif" onclick="zoomImage(this)">
             <b class="header">Как использовать:</b>
-            Holding the mirror and activating it will show you the location of the ghost's favorite room.
+            Посмотрев в зеркало можно увидеть любимую комнату призрака (не показывает текущее местоположение призрака).
         </div>
         <div class="text">
             <b class="header">Трата рассудка:</b>
-            Looking into the mirror will drain either 20% sanity or 7.5% per second each time, whichever is higher.
+            Расходует минимум 20% рассудка за 1 использование и 7.5%  рассудка в секунду.
         </div>
         <div class="text">
             <b class="header">Проклятая охота:</b>
-            The mirror will break if the user runs out of sanity, whether by using it for too long or attempting to use with a sanity of less than 20%. The mirror breaking will start a cursed hunt.
+            Если у игрока который смотрит в зеркало закончится рассудок, оно разобьётся и начнётся проклятая охота.
         </div>
         <hr>
         <div class="text">
             <b class="header">Примечания:</b>
             <ul>
                 <li>
-                    While using the mirror, a light source will appear in the ghost's favorite room. Other players can use this to help locate the room.<br>
+                    При использовании зеркала в любимой комнате призрака появится источник света. Другие игроки могут использовать это, чтобы определить местонахождение комнаты.<br>
                     <img loading="lazy" class="zoomable" src="https://i.imgur.com/NtqLWbo.gif" onclick="zoomImage(this)">
                 </li>
                 <li>
-                    Other players are able to see the room in the mirror while it is being used. 
+                    Другие игроки могут видеть комнату в зеркале, пока оно используется. 
                     <img loading="lazy" class="zoomable" src="https://i.imgur.com/gWLxuBk.gif" onclick="zoomImage(this)">
                 </li>
             </ul>
@@ -360,75 +360,78 @@
         <div class="text">
             <img loading="lazy" class="zoomable" src="https://i.imgur.com/c6Tjdtf.gif" onclick="zoomImage(this)">
             <b class="header">Как использовать:</b>
-            The user is able to make wishes to the monkey paw. Wishes can provide information and forced activity, but each wish comes at a cost. Once a valid wish is made, a finger on the paw will curl down and the wish will be granted.
+            Игрок может загадывать желания Обезьяньей лапе. Желания могут быть полезными, но есть свои недостатки. Как только желание будет исполнено, палец на лапе согнется, и желание будет исполнено.
         </div>
         <div class="text">
-            <b class="header">Wishes (Pros / Cons):</b>
-            <i class="i-header">"I wish to see the ghost"</i>
+            <b class="header">Желания (плюсы и минусы):</b>
+            <i class="i-header">"Я хочу увидеть призрака"</i>
             <ul style="padding: 0px 0px 0px 10px; border-spacing: 0px 10px;">
-                <li class="wiki-green">Ghost appears at its current location</li>
-                <li class="wiki-red">After the event, a hunt will start and player vision is darkened for the duration of the hunt</li>
+                <li class="wiki-green">Призывает паранормальное явление в текущем местоположении призрака.</li>
+                <li class="wiki-red">После паранормального явления, все входные двери блокируются, после чего призрак начинает проклятую охоту и обзор игрока уменьшается до её конца.</li>
             </ul>
             <hr>
-            <i class="i-header">"I wish for activity"</i>
+            <i class="i-header">"Хочу активность"</i>
             <ul style="padding: 0px 0px 0px 10px; border-spacing: 0px 10px;">
-                <li class="wiki-green">Doubles all ghost activity for 2 min</li>
-                <li class="wiki-red">Breaker set to broken and front door locked for 2 min</li>
+                <li class="wiki-green">Увеличивает активность призрака вдвое (взаимодействия, блуждания, способности)</li>
+                <li class="wiki-red">Щиток ломается, входная дверь запирается на 2 минуты</li>
             </ul>
             <hr>
-            <i class="i-header">"I wish for sanity"</i>
+            <i class="i-header">"Хочу вернуть рассудок"</i>
             <ul style="padding: 0px 0px 0px 10px; border-spacing: 0px 10px;">
-                <li class="wiki-green">Averages everyone's sanity to 50%</li>
-                <li class="wiki-red">Sets ghost's favorite room to a random room and increases current sanity drain by 50%</li>
+                <li class="wiki-green">Устанавливает средний рассудок на 50%</li>
+                <li class="wiki-red">Пассивное истощение рассудка будет повышено на 50%, призрак сменит свою любимую комнату на случайную</li>
             </ul>
             <hr>
-            <i class="i-header">"I wish the ghost was trapped"</i>
+            <i class="i-header">"Хочу поймать призрака в ловушку""</i>
             <ul style="padding: 0px 0px 0px 10px; border-spacing: 0px 10px;">
-                <li class="wiki-green">Ghost locked in its room for 1 min where it cannot hunt, roam, or do abilities</li>
-                <li class="wiki-red">Locks doors in the player's room and hunt starts after the 1 min period (25% doors will unlock after grace period)</li>
+                <li class="wiki-green">Телепортирует призрака в его комнату и запирает дверь на 1 минуту, не может начать охоту, иниицировать паранормальные явления, выходить из комнаты</li>
+                <li class="wiki-red">Запираются все двери той комнаты в которой находится игрок и по истечении минуты, все двери откроются и начнётся охота</li>
             </ul>
             <hr>
-            <i class="i-header">"I wish for life"</i>
+            <i class="i-header">"Хочу оживить моего друга"</i>
             <ul style="padding: 0px 0px 0px 10px; border-spacing: 0px 10px;">
-                <li class="wiki-green">Revive a dead player</li>
-                <li class="wiki-red">50% chance that the wishing player will die</li>
+                <li class="wiki-green">Оживляет мёртвого игрока</li>
+                <li class="wiki-red">Игрок, загадавший желание, имеет 50% шанс умереть</li>
             </ul>
             <hr>
-            <i class="i-header">"I wish to be safe"</i>
+            <i class="i-header">"Хочу быть в безопасности"</i>
             <ul style="padding: 0px 0px 0px 10px; border-spacing: 0px 10px;">
-                <li class="wiki-green">Unblocks the nearest blocked hiding spot</li>
-                <li class="wiki-red">Breaks the light in that room and ghost is able to sense or hear the player from any distance</li>
+                <li class="wiki-green">Разблокирует ближайшее укрытие</li>
+                <li class="wiki-red">Взрывает лампочки в текущей комнате игрока, до конца контракта призрак будет слышать голос (в том числе и рацию) и чувствовать активную электронику игрока на любом расстоянии</li>
             </ul>
             <hr>
-            <i class="i-header">"I wish to leave"</i>
+            <i class="i-header">"Хочу уйти"</i>
             <ul style="padding: 0px 0px 0px 10px; border-spacing: 0px 10px;">
-                <li class="wiki-green">Unlocks all exit doors (works during hunts)</li>
-                <li class="wiki-red">Player slowness and darkened vision for 5 secs</li>
+                <li class="wiki-green">Отпирает все входные двери (во время охоты тоже)</li>
+                <li class="wiki-red">Скорость игрока максимально снижается и затемняется экран на 5 секунд</li>
             </ul>
             <hr>
-            <i class="i-header">"I wish for knowledge"</i>
+            <i class="i-header">"Хочу знаний</i>
             <ul style="padding: 0px 0px 0px 10px; border-spacing: 0px 10px;">
-                <li class="wiki-green">Removes 1 incorrect evidence from the journal and crosses out associated ghosts</li>
-                <li class="wiki-red">Starts a hunt and player vision and audio is reduced the rest of that round</li>
+                <li class="wiki-green">Вычёркивает одну улику в журнале, которой нет у текущего призрака</li>
+                <li class="wiki-red">Затемняется экран и приглушаются звуки, после чего призрак начинает охоту рядом с игроком. До конца контракта у игрока сохраняются эффекты затемнения экрана и приглушения звуков</li>
             </ul>
             <hr>
-            <i class="i-header">"I wish for [weather]"</i>
+            <i class="i-header">"Хочу солнце/дождь/чистое небо/туман/снег"</i>
             <ul style="padding: 0px 0px 0px 10px; border-spacing: 0px 10px;">
-                <li class="wiki-green">Changes the weather to the one specified</li>
-                <li class="wiki-red">Drops sanity by 25%</li>
+                <li class="wiki-green">Меняет погоду на выбранную</li>
+                <li class="wiki-red">Понижает рассудок на 25%</li>
             </ul>
             <hr>
-            <i class="i-header">"I wish for anything"</i>
+            <i class="i-header">"Хочу чего-то</i>
             <ul style="padding: 0px 0px 0px 10px; border-spacing: 0px 10px;">
-                <li class="wiki-green">Randomly chooses one of the above wishes</li>
+                <li class="wiki-green">Случайным образом исполняет одно из вышеуказанных желаний</li>
             </ul>
         </div>
         <hr>
         <div class="text">
             <b class="header">Примечания</b>
             <ul>
-                <li>The number of extended fingers on the hand indicates the number of wishes remaining that can be granted during that contract.</li>
-                <li>Each wish can only be used once per contract. Asking a duplicate question will cause the fingers to wiggle.</li>
+                <li>Исполняет до определенного количества желаний в зависимости от множителя награды за сложность:<br>
+                0x – 1.99x: 5 желаний<br>
+                2x – 2.99x: 4 желания<br>
+                3x или больше: 3 желания</li><br>
+                <li>Одно и то же желание нельзя использовать дважды.</li>
             </ul>
         </div>
     </div>
@@ -438,28 +441,27 @@
         <div class="text">
             <img loading="lazy" class="zoomable" src="https://i.imgur.com/Eo0WtmI.gif" onclick="zoomImage(this)">
             <b class="header">Как использовать:</b>
-            When used, the music box will play music for a time. If the music box is brought within 20m of the ghost, the ghost will begin to sing along, giving away its location but remaining invisible.
-            If the box gets within 5m of the ghost (2.5m for Yokai), the ghost will start an event where it becomes visible and begins to walk toward the box.<br>
+            После активации Музыкальной шкатулки призрак начнёт подпевать в радиусе 20 метров, оставаясь невидимым. Чем ближе игроки к призраку, тем громче будет пение.
+            Если играющая Музыкальная шкатулка находится в пределах 5 метров от призрака, он покажет свою физическую форму и начнёт двигаться к Шкатулке. Если призрак достигнет Музыкальной шкатулки или будет идти к ней более 5 секунд, то начнётся проклятая охота<br>
         </div>
         <div class="text">
             <b class="header">Трата рассудка:</b>
-            Being within 2.5m of the music box will drain 2.5% sanity per second while the song is playing, for a total of 75% lost if the music box is allowed to play for its full length.
-        </div>
+            Все игроки, которые находятся в 2.5 метрах с играющей Музыкальной шкатулкой, будут терять рассудок со скоростью 2.5% в секунду, около 75%, если прослушать всю мелодию, которая длится 30 секунд.
         <div class="text">
             <b class="header">Проклятая охота:</b>
-            A cursed hunt will begin if any of the following conditions happen:
+            Проклятая охота начнется если:
             <ul>
-                <li>The player throws the box instead of placing it, causing it to slam shut</li>
-                <li>The player reaches or is at 0% sanity</li>
-                <li>The ghost event (where it is visible and walking toward the box) lasts for more than 5 seconds</li>
-                <li>The ghost reaches the player or the box</li>
+                <li>Бросить Музыкальную шкатулку пока она играет, начнётся проклятая охота*.</li>
+                <li>Игрок достигает 0% рассудка</li>
+                <li>Паранормальное явление длится дольше 5 секунд</li>
+                <li>Призрак добирается до музыкальной шкатулки или игрока</li>
             </ul>
         </div>
         <hr>
         <div class="text">
-            <b class="header">Примечания</b>
+            <b class="header">Примечания:</b>
             <ul>
-                <li>It is possible for the music box to close without starting a cursed hunt if either no players are in the investigation area or if the ghost is not close enough to the music box before the music stops playing.</li>
+                <li>* - вместо проклятой начнётся обычная охота, если у игрока, который держит Музыкальную шкатулку рассудок упадёт до 0%.</li>
             </ul>
         </div>
     </div>
@@ -565,7 +567,7 @@
         </div>
         <hr>
         <div class="text">
-            <b class="header">Примечания</b>
+            <b class="header">Примечания:</b>
             <ul>
                 <li>
                     If a player walks away from the board while it is active, or if they attempt to ask a question with 0% sanity, the board will glow orange, break, and start a cursed hunt.<br>
@@ -593,7 +595,7 @@
         </div>
         <hr>
         <div class="text">
-            <b class="header">Примечания</b>
+            <b class="header">Примечания:</b>
             <ul>
                 <li>
                     If the final candle is lit when you have less than 16% sanity, then the ghost will be summoned and skip the event, immediately starting a hunt (not cursed, but can only be prevented by an unused tier 3 crucifix).
@@ -764,7 +766,7 @@
         </div>
         <hr>
         <div class="text">
-            <b class="header">Примечания</b>
+            <b class="header">Примечания:</b>
             <ul>
                 <li>Pushing a pin will drain 5% but have no interaction if the ghost is not close enough to anything to interact with.</li>
                 <li>
